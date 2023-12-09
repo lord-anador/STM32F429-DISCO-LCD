@@ -1,2 +1,2 @@
 # STM32F429-DISCO-LCD
-Temporary repo for education purposes
+STM32F429 Discovery example showing basic principles of working with LCD.
