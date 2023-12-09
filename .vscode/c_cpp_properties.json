@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/Projects/STM32CubeF4/Drivers/CMSIS/Include",
+                "~/Projects/STM32CubeF4/Drivers/CMSIS/Core/Include",
+                "~/Projects/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "~/Projects/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "~/Projects/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery",
+                "~/Projects/STM32CubeF4/Drivers/BSP/Components/ili9341"
+            ],
+            "defines": [
+                "STM32F429xx"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
